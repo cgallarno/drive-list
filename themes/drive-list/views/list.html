@@ -1,0 +1,7 @@
+<h1>Song list</h1>
+<input type="text" ng-model="search">
+<h4>{{ results.length }} Results</h4>
+<ul>
+	<li ng-repeat="song in results">{{ song.artist }}:{{ song.title }}</li>
+</ul>
+<div id="blackground"></div>

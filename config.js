@@ -10,4 +10,4 @@ var app = {
 	driveKey : "0ApVS-WbxyoqHdERGVDlGb2llQ3pvMzJTSWgzREQ5V2c",
 	serverSecret : "",
 	pageTransition : ''
-}
+};
