@@ -1,6 +1,6 @@
 $app.controller('list', function($scope, $http, $filter){
 	var songs = (localStorage.songs)?JSON.parse(localStorage.songs):[];
-	$scope.search = '';
+	$scope.search = 'song';
 	$scope.results = [];
 
 	$scope.$watch('search', function(newVal, oldVal){

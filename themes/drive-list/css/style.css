@@ -1,0 +1,19 @@
+body{
+	background: #1E1D23;
+	color: #DEDEDD;
+}
+
+h3, h4{
+	margin: 0;
+	font-family: robotothin;
+}
+
+h4{
+	color: #999B9A;
+}
+
+li{
+	background: #232228;
+	width: 100%;
+	border-top: 1px solid #525155;
+}
