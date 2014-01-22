@@ -3,7 +3,7 @@
  * If loading jQuery, it must come before Angular.
  */
 var app = {
-	name : 'Plus.io Frontend',
+	name : 'Fingaz',
 	plugins : ['jquery', "angular", "plus", 'hammer', 'overthrow', 'dragend'],
 	theme : 'drive-list',
 	projectId : "revision-3",

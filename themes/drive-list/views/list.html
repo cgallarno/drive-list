@@ -1,10 +1,17 @@
-<h1>Song list</h1>
-<input type="text" ng-model="search">
+<div id="search">
+	<input type="text" ng-model="search">
+</div>
 <h4>{{ results.length }} Results</h4>
 <ul class="list-unstyled">
-	<li ng-repeat="song in results">
-		<h3>{{ song.artist }}</h3>
-		<h4>{{ song.title }}</h4>
+	<li ng-repeat="song in results" class="song">
+		<div class="song-inner">
+			<div class="index">{{ $index + 1 }}</div>
+			<div class="song-info">
+				<h3>{{ song.title | limitTo:30}}<span ng-if="song.title.length > 30">&hellip;</span></h3>
+				<h4>{{ song.artist }}</h4>
+			</div>
+			<div class="clearfix"></div>
+		</div>
 	</li>
 </ul>
-<div id="blackground"></div>
+<!-- <div id="blackground"></div> -->
